@@ -1,33 +1,95 @@
-# Counter-Strike 1.6
+html
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter-Strike 1.6</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #333;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            background: #fff;
+            margin: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #333;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
 
-Добро пожаловать на сайт, посвященный одной из самых культовых игр в жанре шутеров от первого лица - **Counter-Strike 1.6**!
+<header>
+    <h1>Counter-Strike 1.6</h1>
+</header>
 
-## О игре
+<nav>
+    <a href="#about">О игре</a>
+    <a href="#features">Особенности</a>
+    <a href="#guides">Гайды</a>
+    <a href="#contact">Контакты</a>
+</nav>
 
-**Counter-Strike 1.6** - это многопользовательская игра, выпущенная в 2000 году, которая быстро завоевала популярность среди геймеров по всему миру. Игра является модификацией для Half-Life и предлагает игрокам сражаться в командах террористов и контр-террористов.
+<section id="about">
+    <h2>О игре</h2>
+    <p>Counter-Strike 1.6 - это многопользовательская игра в жанре шутера от первого лица, выпущенная в 2000 году. Игра предлагает игрокам сражаться в командах террористов и контр-террористов.</p>
+</section>
 
-### Основные особенности:
+<section id="features">
+    <h2>Особенности</h2>
+    <ul>
+        <li>Многопользовательский режим с различными игровыми режимами.</li>
+        <li>Разнообразие карт с уникальными особенностями.</li>
+        <li>Широкий выбор оружия для разных стилей игры.</li>
+        <li>Командная игра, которая требует стратегии и слаженных действий.</li>
+    </ul>
+</section>
 
-- **Многопользовательский режим**: Игроки могут сражаться друг с другом в различных игровых режимах, включая «Команда против команды» (Team Deathmatch) и «Спасение заложников» (Hostage Rescue).
-- **Разнообразие карт**: Игра предлагает множество карт, каждая из которых имеет свои уникальные особенности и стратегии.
-- **Оружие**: В игре доступно множество видов оружия, от пистолетов до автоматов, что позволяет игрокам выбирать свой стиль игры.
-- **Командная игра**: Успех в игре часто зависит от слаженных действий команды, что делает игру более стратегической.
+<section id="guides">
+    <h2>Гайды и советы</h2>
+    <p>Для того чтобы стать лучшим игроком, ознакомьтесь с нашими гайдами:</p>
+    <ul>
+        <li><a href="https://www.counter-strike.com/guides/basics">Основы игры</a></li>
+        <li><a href="https://www.counter-strike.com/guides/maps">Стратегии на картах</a></li>
+        <li><a href="https://www.counter-strike.com/guides/weapons">Выбор оружия</a></li>
+    </ul>
+</section>
 
-## Начало игры
+<section id="contact">
+    <h2>Контакты</h2>
+    <p>Если у вас есть вопросы или предложения, вы можете связаться с нами по электронной почте: <a href="mailto:support@cs16site.com">support@cs16site.com</a>.</p>
+</section>
 
-1. Установите Counter-Strike 1.6 на своем компьютере.
-2. Выберите сервер для игры или создайте свой собственный.
-3. Выберите команду (террористы или контр-террористы) и начните игру!
+<footer>
+    <p>&copy; 2023 Counter-Strike 1.6 Community</p>
+</footer>
 
-## Полезные ресурсы
-
-- [Официальный сайт Counter-Strike](https://www.counter-strike.net)
-- [Форумы сообщества](https://www.counter-strike.com/forums)
-- [Гайды и советы](https://www.counter-strike.com/guides)
-
-## Контакты
-
-Если у вас есть вопросы или предложения, вы можете связаться с нами по электронной почте: support@cs16site.com.
-
-Спасибо за посещение нашего сайта! Удачи в игре!
-   
+</body>
+</html>
